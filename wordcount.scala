@@ -17,7 +17,3 @@ val filtered = wordCounts.filter(_._2 >= threshold)
 
 System.out.println(filtered.collect().mkString(","))
 System.out.println("Coiso")
-
-System.out.println("Balelo")
-System.out.println("Rasputin")
-System.out.println("askdasjkdasjdak")
