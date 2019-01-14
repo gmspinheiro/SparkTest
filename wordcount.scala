@@ -16,3 +16,4 @@ val wordCounts = tokenized.map((_ , 1)).reduceByKey(_ + _)
 val filtered = wordCounts.filter(_._2 >= threshold)
 
 System.out.println(filtered.collect().mkString(","))
+System.out.println("Coiso")
